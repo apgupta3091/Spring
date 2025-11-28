@@ -3,6 +3,8 @@ package com.anuj.learn_spring_framework;
 import com.anuj.learn_spring_framework.game.GameRunner;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
+import java.util.Arrays;
+
 public class App02HelloWorldSpring {
     public static void main(String[] args) {
         // Launch a spring context
@@ -21,6 +23,14 @@ public class App02HelloWorldSpring {
 
         System.out.println(context.getBean("address2"));
 
-//        System.out.println(context.getBean(Address.class));
+        System.out.println(context.getBean(Person.class));
+
+        System.out.println(context.getBean(Address.class));
+
+        System.out.println(context.getBean("person5Qualifier"));
+
+
+//        Arrays.stream(context.getBeanDefinitionNames())
+//                .forEach(System.out::println);
     }
 }
