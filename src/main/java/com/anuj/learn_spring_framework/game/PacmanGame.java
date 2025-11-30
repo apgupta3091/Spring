@@ -1,4 +1,4 @@
-package com.anuj.learn_spring_framework;
+package com.anuj.learn_spring_framework.game;
 
 public class PacmanGame implements GamingConsole {
     public void up(){

@@ -1,12 +1,11 @@
-package com.anuj.learn_spring_framework;
+package com.anuj.learn_spring_framework.helloworld;
 
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Primary;
 
-record Person(String name, int age, Address address) { };
-record Address(String streetName, String city) { };
+
 
 @Configuration
 public class HelloWorldConfiguration {

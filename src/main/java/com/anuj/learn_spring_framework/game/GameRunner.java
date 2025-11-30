@@ -1,7 +1,5 @@
 package com.anuj.learn_spring_framework.game;
 
-import com.anuj.learn_spring_framework.GamingConsole;
-
 public class GameRunner {
     private GamingConsole game;
 
