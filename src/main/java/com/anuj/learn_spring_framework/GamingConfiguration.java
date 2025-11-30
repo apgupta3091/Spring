@@ -15,7 +15,7 @@ public class GamingConfiguration {
     }
 
     @Bean
-    public GameRunner gameRunner(GamingConsole game) {
-        return new GameRunner(game);
+    public GameRunner gameRunner() {
+        return new GameRunner(game());
     }
 }
